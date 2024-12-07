@@ -64,6 +64,14 @@ Trie这个术语来自于retrieval。trie的发明者Edward Fredkin把它读作/
 - 练习 5 - 使用 AI编码助手 生成单元测试代码
 - 练习 6 - 使用 AI编码助手 生成Git提交注释
 
+## 如何运行测试
+
+可以通过以下指令运行单元测试
+
+```shell
+python -m unittest discover -s src/tests
+```
+
 ## 联系我们
 
 如果您在使用 **AI编码助手** 的过程中遇到任何问题，或者您有任何建议和反馈，请随时联系我们。您可以通过以下方式联系我们：
