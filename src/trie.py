@@ -24,7 +24,7 @@ class Trie:
         return True
 
     def auto_suggest(self, prefix):
-        current_node = self.root··
+        current_node = self.root
         for c in prefix:
             if not current_node.has_child(c):
                 return []
